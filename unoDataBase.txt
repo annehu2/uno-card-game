@@ -1,0 +1,3 @@
+instructions,The next player to play after this card's turn gets skipped!,Next player that plays must draw 2 cards,This reverses the direction of play. ,Person who plays this can change the colour of the next players card,This person can change the colour and the next player must pick up 4 cards.,
+
+annehu,starT22@,asdasdas,asdasd,1,0,beginner,img.png,

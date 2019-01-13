@@ -1,0 +1,254 @@
+#playerWindow{
+	-fx-background-color: #ff9933;
+	-fx-border-color:#801a00;
+	-fx-border-width: 7.0px;
+}
+
+#playerWindowTitle{
+	-fx-font-family:Courier;
+	-fx-font-size:20.0px;
+	-fx-font-weight:bold;
+	-fx-text-fill:#ffffff;
+}
+
+#textField{
+	-fx-background-color: #ffbf80;
+    -fx-background-radius: 3,3,3,3;
+    -fx-font-family:Courier;
+}
+
+#textfield:focused {
+   -fx-background-color: #ffe6cc;
+}
+
+#winnerWindowLbl{
+	-fx-font-family:Courier;
+	-fx-font-size:40.0px;
+	-fx-font-weight:bold;
+	-fx-text-fill:#ffffff;
+}
+
+#winnerWindow{
+	-fx-background-color: #ff5050;
+	-fx-border-color:#801a00;
+	-fx-border-width: 7.0px;
+}
+
+#loserWindow{
+	-fx-background-color: #0040ff;
+	-fx-border-color:#00134d;
+	-fx-border-width: 7.0px;
+}
+
+#howToPlayTitle{
+	-fx-font-family:Courier;
+	-fx-font-size:20.0px;
+	-fx-font-weight:bold;
+	-fx-text-fill:#239023;
+}
+
+#howToPlayIns{
+	-fx-font-family:Courier;
+	-fx-font-size:15.0px;
+	-fx-font-weight:bold;
+	-fx-text-fill:#000000;
+}
+
+#unoButton {
+ 	-fx-background-color: #ff0000;
+ 	-fx-background-radius:80.0px;
+ 	-fx-border-color:#ffff00;
+ 	-fx-border-width: 5.0px;
+ 	-fx-border-radius:80.0px;
+ 	-fx-font-family:Arial Bold;
+	-fx-font-size:20.0px;
+	-fx-font-weight:bold;
+	-fx-text-fill:#ffffff;
+}
+
+#unoButton:hover{
+	-fx-background-color: #ff5c33;
+}
+
+#pauseWindow{
+	-fx-background-color: #ff751a;
+	-fx-border-color:#cc2900;
+	-fx-border-width: 7.0px;
+}
+
+#pauseWindowButtons{
+	-fx-background-color: #00cc00;
+ 	-fx-background-radius:20.0px;
+ 	-fx-border-radius:20.0px;
+ 	-fx-border-color:#000000;
+ 	-fx-border-width: 5.0px;
+ 	-fx-font-family:Arial Bold;
+	-fx-font-size:20.0px;
+	-fx-font-weight:bold;
+	-fx-text-fill:#000000;
+}
+#pauseWindowButtons:hover{
+	-fx-background-color: #00ff00;
+}
+
+
+#pauseButton{
+	-fx-background-color: #ff9933;
+ 	-fx-background-radius:40.0px;
+ 	-fx-border-color:#b35900;
+ 	-fx-border-width: 5.0px;
+ 	-fx-border-radius:40.0px;
+ 	-fx-font-family:Courier New;
+	-fx-font-size:20.0px;
+	-fx-font-weight:bold;
+	-fx-text-fill:#000000;
+}
+
+#statsWindow{
+	-fx-background-color: #33cc33;
+	-fx-border-width: 5.0px;
+	-fx-border-color:#145214;
+}
+
+#statsWindowLbl{
+	-fx-font-family:Courier New;
+	-fx-font-size:30.0px;
+	-fx-font-weight:bold;
+	-fx-text-fill:#000000;
+}
+
+#pauseButton:hover{
+	-fx-background-color: #ffa366;
+}
+
+#background{
+	-fx-background-color: #4C9900;
+	-fx-background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
+}
+
+#mainMenuWindow{
+	-fx-background-image:url("https://cdn.pixabay.com/photo/2017/04/05/08/26/rays-2204246_960_720.jpg");
+	-fx-background-repeat: no-repeat;
+	 -fx-background-size: cover;
+}
+
+#mainMenuButtons{
+	-fx-background-color: #ff9933;
+ 	-fx-background-radius:40.0px;
+ 	-fx-border-color:#b35900;
+ 	-fx-border-width: 5.0px;
+ 	-fx-border-radius:40.0px;
+ 	-fx-font-family:Courier New;
+	-fx-font-size:20.0px;
+	-fx-font-weight:bold;
+	-fx-text-fill:#000000;
+}
+
+#mainMenuButtonsSmaller{
+	-fx-background-color: #ff9933;
+ 	-fx-background-radius:20.0px;
+ 	-fx-border-color:#b35900;
+ 	-fx-border-width: 3.0px;
+ 	-fx-border-radius:20.0px;
+ 	-fx-font-family:Courier New;
+	-fx-font-size:13.0px;
+	-fx-font-weight:bold;
+	-fx-text-fill:#000000;
+}
+
+#mainMenuButtonsSmaller:hover{
+	-fx-background-color: #ffa366;
+	-fx-scale-y: 1.1;
+	-fx-scale-x: 1.1;
+}
+
+#mainMenuButtons:hover{
+	-fx-background-color: #ffa366;
+	-fx-scale-y: 1.1;
+	-fx-scale-x: 1.1;
+}
+#mainMenuButtons:pressed{
+	-fx-background-color: #ffcc99;
+	-fx-scale-y: 1.1;
+	-fx-scale-x: 1.1;
+}
+
+
+#tablesurface {
+ 	-fx-background-color: #FF9933;
+}
+
+#deckButton{
+	-fx-background-image: url("cardBack.png");
+	-fx-background-repeat: stretch;
+	-fx-background-size: 90.0 140.0;
+}
+
+#deckButton:pressed{
+	-fx-scale-y: 1.1;
+	-fx-scale-x: 1.1;
+}
+
+ #deckButton:hover {
+ 	-fx-border-color:#ff471a;
+ 	-fx-border-width: 3.0px;
+ 	-fx-border-radius:5.0px;
+}
+
+#greyOut{
+	-fx-background-color: rgba(76.0, 175.0, 80.0, 0.3);
+	-fx-background-radius: 10.0;
+}
+
+#redButton{
+	-fx-background-color:#f24537;
+	-fx-border-radius:6.0px;
+	-fx-font-family:Courier New;
+	-fx-font-size:24.0px;
+	-fx-font-weight:bold;
+	-fx-text-fill:#ffffff;
+	-fx-padding:30.0px 30.0px;
+}
+#redButton:hover {
+-fx-background-color:#f6786f;
+}
+
+#blueButton{
+	-fx-background-color: #3333ff;
+	-fx-border-radius:6.0px;
+	-fx-font-family:Courier New;
+	-fx-font-size:24.0px;
+	-fx-font-weight:bold;
+	-fx-text-fill:#ffffff;
+	-fx-padding:30.0px 30.0px;
+}
+#blueButton:hover {
+-fx-background-color:#8080ff;
+}
+
+#greenButton{
+	-fx-background-color:#00cc00;
+	-fx-border-radius:6.0px;
+	-fx-font-family:Courier New;
+	-fx-font-size:24.0px;
+	-fx-font-weight:bold;
+	-fx-text-fill:#ffffff;
+	-fx-padding:30.0px 30.0px;
+}
+#greenButton:hover {
+-fx-background-color:#33ff33;
+}
+
+#yellowButton{
+	-fx-background-color:#ffcc00;
+	-fx-border-radius:6.0px;
+	-fx-font-family:Courier New;
+	-fx-font-size:24.0px;
+	-fx-font-weight:bold;
+	-fx-text-fill:#ffffff;
+	-fx-padding:30.0px 30.0px;
+}
+#yellowButton:hover {
+-fx-background-color:#ffe680;
+}
+
